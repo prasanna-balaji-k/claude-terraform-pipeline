@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="linkedin-001-04-2026-banner.png" alt="AI-Powered Terraform Review Pipeline" width="100%"/>
+</p>
+
 # How I Built an AI-Powered Terraform Review Pipeline with GitHub Actions and Claude
 
 > Every PR that touches infrastructure deserves a second pair of eyes — I made Claude that second pair.
@@ -34,6 +38,12 @@ GitHub Actions Workflow
                ├── Reads: terraform plan JSON
                └── Posts: structured review comment on the PR
 ```
+
+<p align="center">
+  <img src="linkedin-001-04-2026.png" alt="Pipeline Architecture Diagram" width="800"/>
+  <br/>
+  <em>Pipeline flow — from PR trigger to Claude review comment</em>
+</p>
 
 Three stages. The first two are standard hygiene. The third is where Claude comes in.
 
